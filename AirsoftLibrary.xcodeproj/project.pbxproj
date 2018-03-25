@@ -83,13 +83,13 @@
 			children = (
 				2048FC5020678439008266B5 /* AppDelegate.h */,
 				2048FC5120678439008266B5 /* AppDelegate.m */,
+				2048FC5920678439008266B5 /* Assets.xcassets */,
+				2048FC5E20678439008266B5 /* Info.plist */,
+				2048FC5B20678439008266B5 /* LaunchScreen.storyboard */,
+				2048FC5F20678439008266B5 /* main.m */,
+				2048FC5620678439008266B5 /* Main.storyboard */,
 				2048FC5320678439008266B5 /* ViewController.h */,
 				2048FC5420678439008266B5 /* ViewController.m */,
-				2048FC5620678439008266B5 /* Main.storyboard */,
-				2048FC5920678439008266B5 /* Assets.xcassets */,
-				2048FC5B20678439008266B5 /* LaunchScreen.storyboard */,
-				2048FC5E20678439008266B5 /* Info.plist */,
-				2048FC5F20678439008266B5 /* main.m */,
 			);
 			path = AirsoftLibrary;
 			sourceTree = "<group>";
