@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  RootViewController.m
 //  AirsoftLibrary
 //
 //  Created by kazumi hayashida on 2018/03/25.
 //  Copyright © 2018年 kh.inc.d. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RootViewController.h"
 
-@interface ViewController ()
+@interface RootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RootViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];

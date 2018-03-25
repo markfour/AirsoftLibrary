@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  AirsoftLibrary
 //
 //  Created by kazumi hayashida on 2018/03/25.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
 
 @end
