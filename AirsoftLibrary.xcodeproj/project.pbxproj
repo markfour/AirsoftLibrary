@@ -7,46 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		202EE9CA205A95B300D848AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EE9C9205A95B300D848AB /* AppDelegate.swift */; };
-		202EE9CC205A95B300D848AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EE9CB205A95B300D848AB /* ViewController.swift */; };
-		202EE9CF205A95B400D848AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202EE9CD205A95B400D848AB /* Main.storyboard */; };
-		202EE9D1205A95B400D848AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202EE9D0205A95B400D848AB /* Assets.xcassets */; };
-		202EE9D4205A95B400D848AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202EE9D2205A95B400D848AB /* LaunchScreen.storyboard */; };
-		202EE9DF205A95B400D848AB /* AirsoftLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EE9DE205A95B400D848AB /* AirsoftLibraryTests.swift */; };
+		2048FC5220678439008266B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC5120678439008266B5 /* AppDelegate.m */; };
+		2048FC5520678439008266B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC5420678439008266B5 /* ViewController.m */; };
+		2048FC5820678439008266B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2048FC5620678439008266B5 /* Main.storyboard */; };
+		2048FC5A20678439008266B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2048FC5920678439008266B5 /* Assets.xcassets */; };
+		2048FC5D20678439008266B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2048FC5B20678439008266B5 /* LaunchScreen.storyboard */; };
+		2048FC6020678439008266B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC5F20678439008266B5 /* main.m */; };
+		2048FC6A20678439008266B5 /* AirsoftLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC6920678439008266B5 /* AirsoftLibraryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		202EE9DB205A95B400D848AB /* PBXContainerItemProxy */ = {
+		2048FC6620678439008266B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 202EE9BE205A95B300D848AB /* Project object */;
+			containerPortal = 2048FC4520678439008266B5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 202EE9C5205A95B300D848AB;
+			remoteGlobalIDString = 2048FC4C20678439008266B5;
 			remoteInfo = AirsoftLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		202EE9C6205A95B300D848AB /* AirsoftLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirsoftLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		202EE9C9205A95B300D848AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		202EE9CB205A95B300D848AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		202EE9CE205A95B400D848AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		202EE9D0205A95B400D848AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		202EE9D3205A95B400D848AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		202EE9D5205A95B400D848AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		202EE9DA205A95B400D848AB /* AirsoftLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirsoftLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		202EE9DE205A95B400D848AB /* AirsoftLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirsoftLibraryTests.swift; sourceTree = "<group>"; };
-		202EE9E0205A95B400D848AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2048FC4D20678439008266B5 /* AirsoftLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirsoftLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2048FC5020678439008266B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2048FC5120678439008266B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2048FC5320678439008266B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2048FC5420678439008266B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2048FC5720678439008266B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2048FC5920678439008266B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2048FC5C20678439008266B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2048FC5E20678439008266B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2048FC5F20678439008266B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2048FC6520678439008266B5 /* AirsoftLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirsoftLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2048FC6920678439008266B5 /* AirsoftLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirsoftLibraryTests.m; sourceTree = "<group>"; };
+		2048FC6B20678439008266B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		202EE9C3205A95B300D848AB /* Frameworks */ = {
+		2048FC4A20678439008266B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		202EE9D7205A95B400D848AB /* Frameworks */ = {
+		2048FC6220678439008266B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,42 +60,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		202EE9BD205A95B300D848AB = {
+		2048FC4420678439008266B5 = {
 			isa = PBXGroup;
 			children = (
-				202EE9C8205A95B300D848AB /* AirsoftLibrary */,
-				202EE9DD205A95B400D848AB /* AirsoftLibraryTests */,
-				202EE9C7205A95B300D848AB /* Products */,
+				2048FC4F20678439008266B5 /* AirsoftLibrary */,
+				2048FC6820678439008266B5 /* AirsoftLibraryTests */,
+				2048FC4E20678439008266B5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		202EE9C7205A95B300D848AB /* Products */ = {
+		2048FC4E20678439008266B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				202EE9C6205A95B300D848AB /* AirsoftLibrary.app */,
-				202EE9DA205A95B400D848AB /* AirsoftLibraryTests.xctest */,
+				2048FC4D20678439008266B5 /* AirsoftLibrary.app */,
+				2048FC6520678439008266B5 /* AirsoftLibraryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		202EE9C8205A95B300D848AB /* AirsoftLibrary */ = {
+		2048FC4F20678439008266B5 /* AirsoftLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				202EE9C9205A95B300D848AB /* AppDelegate.swift */,
-				202EE9CB205A95B300D848AB /* ViewController.swift */,
-				202EE9CD205A95B400D848AB /* Main.storyboard */,
-				202EE9D0205A95B400D848AB /* Assets.xcassets */,
-				202EE9D2205A95B400D848AB /* LaunchScreen.storyboard */,
-				202EE9D5205A95B400D848AB /* Info.plist */,
+				2048FC5020678439008266B5 /* AppDelegate.h */,
+				2048FC5120678439008266B5 /* AppDelegate.m */,
+				2048FC5320678439008266B5 /* ViewController.h */,
+				2048FC5420678439008266B5 /* ViewController.m */,
+				2048FC5620678439008266B5 /* Main.storyboard */,
+				2048FC5920678439008266B5 /* Assets.xcassets */,
+				2048FC5B20678439008266B5 /* LaunchScreen.storyboard */,
+				2048FC5E20678439008266B5 /* Info.plist */,
+				2048FC5F20678439008266B5 /* main.m */,
 			);
 			path = AirsoftLibrary;
 			sourceTree = "<group>";
 		};
-		202EE9DD205A95B400D848AB /* AirsoftLibraryTests */ = {
+		2048FC6820678439008266B5 /* AirsoftLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
-				202EE9DE205A95B400D848AB /* AirsoftLibraryTests.swift */,
-				202EE9E0205A95B400D848AB /* Info.plist */,
+				2048FC6920678439008266B5 /* AirsoftLibraryTests.m */,
+				2048FC6B20678439008266B5 /* Info.plist */,
 			);
 			path = AirsoftLibraryTests;
 			sourceTree = "<group>";
@@ -99,13 +106,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		202EE9C5205A95B300D848AB /* AirsoftLibrary */ = {
+		2048FC4C20678439008266B5 /* AirsoftLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 202EE9E3205A95B400D848AB /* Build configuration list for PBXNativeTarget "AirsoftLibrary" */;
+			buildConfigurationList = 2048FC6E20678439008266B5 /* Build configuration list for PBXNativeTarget "AirsoftLibrary" */;
 			buildPhases = (
-				202EE9C2205A95B300D848AB /* Sources */,
-				202EE9C3205A95B300D848AB /* Frameworks */,
-				202EE9C4205A95B300D848AB /* Resources */,
+				2048FC4920678439008266B5 /* Sources */,
+				2048FC4A20678439008266B5 /* Frameworks */,
+				2048FC4B20678439008266B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,49 +120,48 @@
 			);
 			name = AirsoftLibrary;
 			productName = AirsoftLibrary;
-			productReference = 202EE9C6205A95B300D848AB /* AirsoftLibrary.app */;
+			productReference = 2048FC4D20678439008266B5 /* AirsoftLibrary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		202EE9D9205A95B400D848AB /* AirsoftLibraryTests */ = {
+		2048FC6420678439008266B5 /* AirsoftLibraryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 202EE9E6205A95B400D848AB /* Build configuration list for PBXNativeTarget "AirsoftLibraryTests" */;
+			buildConfigurationList = 2048FC7120678439008266B5 /* Build configuration list for PBXNativeTarget "AirsoftLibraryTests" */;
 			buildPhases = (
-				202EE9D6205A95B400D848AB /* Sources */,
-				202EE9D7205A95B400D848AB /* Frameworks */,
-				202EE9D8205A95B400D848AB /* Resources */,
+				2048FC6120678439008266B5 /* Sources */,
+				2048FC6220678439008266B5 /* Frameworks */,
+				2048FC6320678439008266B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				202EE9DC205A95B400D848AB /* PBXTargetDependency */,
+				2048FC6720678439008266B5 /* PBXTargetDependency */,
 			);
 			name = AirsoftLibraryTests;
 			productName = AirsoftLibraryTests;
-			productReference = 202EE9DA205A95B400D848AB /* AirsoftLibraryTests.xctest */;
+			productReference = 2048FC6520678439008266B5 /* AirsoftLibraryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		202EE9BE205A95B300D848AB /* Project object */ = {
+		2048FC4520678439008266B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = kh.inc.d;
 				TargetAttributes = {
-					202EE9C5205A95B300D848AB = {
+					2048FC4C20678439008266B5 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					202EE9D9205A95B400D848AB = {
+					2048FC6420678439008266B5 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 202EE9C5205A95B300D848AB;
+						TestTargetID = 2048FC4C20678439008266B5;
 					};
 				};
 			};
-			buildConfigurationList = 202EE9C1205A95B300D848AB /* Build configuration list for PBXProject "AirsoftLibrary" */;
+			buildConfigurationList = 2048FC4820678439008266B5 /* Build configuration list for PBXProject "AirsoftLibrary" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,29 +169,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 202EE9BD205A95B300D848AB;
-			productRefGroup = 202EE9C7205A95B300D848AB /* Products */;
+			mainGroup = 2048FC4420678439008266B5;
+			productRefGroup = 2048FC4E20678439008266B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				202EE9C5205A95B300D848AB /* AirsoftLibrary */,
-				202EE9D9205A95B400D848AB /* AirsoftLibraryTests */,
+				2048FC4C20678439008266B5 /* AirsoftLibrary */,
+				2048FC6420678439008266B5 /* AirsoftLibraryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		202EE9C4205A95B300D848AB /* Resources */ = {
+		2048FC4B20678439008266B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202EE9D4205A95B400D848AB /* LaunchScreen.storyboard in Resources */,
-				202EE9D1205A95B400D848AB /* Assets.xcassets in Resources */,
-				202EE9CF205A95B400D848AB /* Main.storyboard in Resources */,
+				2048FC5D20678439008266B5 /* LaunchScreen.storyboard in Resources */,
+				2048FC5A20678439008266B5 /* Assets.xcassets in Resources */,
+				2048FC5820678439008266B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		202EE9D8205A95B400D848AB /* Resources */ = {
+		2048FC6320678439008266B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,46 +201,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		202EE9C2205A95B300D848AB /* Sources */ = {
+		2048FC4920678439008266B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202EE9CC205A95B300D848AB /* ViewController.swift in Sources */,
-				202EE9CA205A95B300D848AB /* AppDelegate.swift in Sources */,
+				2048FC5520678439008266B5 /* ViewController.m in Sources */,
+				2048FC6020678439008266B5 /* main.m in Sources */,
+				2048FC5220678439008266B5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		202EE9D6205A95B400D848AB /* Sources */ = {
+		2048FC6120678439008266B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202EE9DF205A95B400D848AB /* AirsoftLibraryTests.swift in Sources */,
+				2048FC6A20678439008266B5 /* AirsoftLibraryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		202EE9DC205A95B400D848AB /* PBXTargetDependency */ = {
+		2048FC6720678439008266B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 202EE9C5205A95B300D848AB /* AirsoftLibrary */;
-			targetProxy = 202EE9DB205A95B400D848AB /* PBXContainerItemProxy */;
+			target = 2048FC4C20678439008266B5 /* AirsoftLibrary */;
+			targetProxy = 2048FC6620678439008266B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		202EE9CD205A95B400D848AB /* Main.storyboard */ = {
+		2048FC5620678439008266B5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				202EE9CE205A95B400D848AB /* Base */,
+				2048FC5720678439008266B5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		202EE9D2205A95B400D848AB /* LaunchScreen.storyboard */ = {
+		2048FC5B20678439008266B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				202EE9D3205A95B400D848AB /* Base */,
+				2048FC5C20678439008266B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -242,7 +249,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		202EE9E1205A95B400D848AB /* Debug */ = {
+		2048FC6C20678439008266B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,12 +301,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		202EE9E2205A95B400D848AB /* Release */ = {
+		2048FC6D20678439008266B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,12 +349,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		202EE9E4205A95B400D848AB /* Debug */ = {
+		2048FC6F20678439008266B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -359,12 +363,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.AirsoftLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		202EE9E5205A95B400D848AB /* Release */ = {
+		2048FC7020678439008266B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -374,15 +377,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.AirsoftLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		202EE9E7205A95B400D848AB /* Debug */ = {
+		2048FC7220678439008266B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC7RJ22359;
@@ -390,16 +391,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.AirsoftLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirsoftLibrary.app/AirsoftLibrary";
 			};
 			name = Debug;
 		};
-		202EE9E8205A95B400D848AB /* Release */ = {
+		2048FC7320678439008266B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC7RJ22359;
@@ -407,7 +406,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.AirsoftLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirsoftLibrary.app/AirsoftLibrary";
 			};
@@ -416,34 +414,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		202EE9C1205A95B300D848AB /* Build configuration list for PBXProject "AirsoftLibrary" */ = {
+		2048FC4820678439008266B5 /* Build configuration list for PBXProject "AirsoftLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				202EE9E1205A95B400D848AB /* Debug */,
-				202EE9E2205A95B400D848AB /* Release */,
+				2048FC6C20678439008266B5 /* Debug */,
+				2048FC6D20678439008266B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		202EE9E3205A95B400D848AB /* Build configuration list for PBXNativeTarget "AirsoftLibrary" */ = {
+		2048FC6E20678439008266B5 /* Build configuration list for PBXNativeTarget "AirsoftLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				202EE9E4205A95B400D848AB /* Debug */,
-				202EE9E5205A95B400D848AB /* Release */,
+				2048FC6F20678439008266B5 /* Debug */,
+				2048FC7020678439008266B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		202EE9E6205A95B400D848AB /* Build configuration list for PBXNativeTarget "AirsoftLibraryTests" */ = {
+		2048FC7120678439008266B5 /* Build configuration list for PBXNativeTarget "AirsoftLibraryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				202EE9E7205A95B400D848AB /* Debug */,
-				202EE9E8205A95B400D848AB /* Release */,
+				2048FC7220678439008266B5 /* Debug */,
+				2048FC7320678439008266B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 202EE9BE205A95B300D848AB /* Project object */;
+	rootObject = 2048FC4520678439008266B5 /* Project object */;
 }
