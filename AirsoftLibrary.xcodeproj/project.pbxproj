@@ -81,6 +81,9 @@
 		2048FC4F20678439008266B5 /* AirsoftLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				2048FC76206784AC008266B5 /* Controller */,
+				2048FC75206784A6008266B5 /* Model */,
+				2048FC74206784A0008266B5 /* View */,
 				2048FC5020678439008266B5 /* AppDelegate.h */,
 				2048FC5120678439008266B5 /* AppDelegate.m */,
 				2048FC5920678439008266B5 /* Assets.xcassets */,
@@ -88,8 +91,6 @@
 				2048FC5B20678439008266B5 /* LaunchScreen.storyboard */,
 				2048FC5F20678439008266B5 /* main.m */,
 				2048FC5620678439008266B5 /* Main.storyboard */,
-				2048FC5320678439008266B5 /* ViewController.h */,
-				2048FC5420678439008266B5 /* ViewController.m */,
 			);
 			path = AirsoftLibrary;
 			sourceTree = "<group>";
@@ -101,6 +102,29 @@
 				2048FC6B20678439008266B5 /* Info.plist */,
 			);
 			path = AirsoftLibraryTests;
+			sourceTree = "<group>";
+		};
+		2048FC74206784A0008266B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2048FC75206784A6008266B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2048FC76206784AC008266B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2048FC5320678439008266B5 /* ViewController.h */,
+				2048FC5420678439008266B5 /* ViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
