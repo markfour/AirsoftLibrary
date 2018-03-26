@@ -14,6 +14,8 @@
 		2048FC5D20678439008266B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2048FC5B20678439008266B5 /* LaunchScreen.storyboard */; };
 		2048FC6020678439008266B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC5F20678439008266B5 /* main.m */; };
 		2048FC6A20678439008266B5 /* AirsoftLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC6920678439008266B5 /* AirsoftLibraryTests.m */; };
+		2048FC7B20679C50008266B5 /* GunCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC7A20679C50008266B5 /* GunCollectionViewCell.m */; };
+		2048FC7D2069413D008266B5 /* GunCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2048FC7C2069413D008266B5 /* GunCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		2048FC6520678439008266B5 /* AirsoftLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirsoftLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2048FC6920678439008266B5 /* AirsoftLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirsoftLibraryTests.m; sourceTree = "<group>"; };
 		2048FC6B20678439008266B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2048FC7920679C50008266B5 /* GunCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GunCollectionViewCell.h; sourceTree = "<group>"; };
+		2048FC7A20679C50008266B5 /* GunCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GunCollectionViewCell.m; sourceTree = "<group>"; };
+		2048FC7C2069413D008266B5 /* GunCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GunCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 		2048FC74206784A0008266B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2048FC7920679C50008266B5 /* GunCollectionViewCell.h */,
+				2048FC7A20679C50008266B5 /* GunCollectionViewCell.m */,
+				2048FC7C2069413D008266B5 /* GunCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +220,7 @@
 				2048FC5D20678439008266B5 /* LaunchScreen.storyboard in Resources */,
 				2048FC5A20678439008266B5 /* Assets.xcassets in Resources */,
 				2048FC5820678439008266B5 /* Main.storyboard in Resources */,
+				2048FC7D2069413D008266B5 /* GunCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +241,7 @@
 				2048FC5520678439008266B5 /* RootViewController.m in Sources */,
 				2048FC6020678439008266B5 /* main.m in Sources */,
 				2048FC5220678439008266B5 /* AppDelegate.m in Sources */,
+				2048FC7B20679C50008266B5 /* GunCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
