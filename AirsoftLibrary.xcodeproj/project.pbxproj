@@ -16,6 +16,7 @@
 		2048FC6A20678439008266B5 /* AirsoftLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC6920678439008266B5 /* AirsoftLibraryTests.m */; };
 		2048FC7B20679C50008266B5 /* GunCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC7A20679C50008266B5 /* GunCollectionViewCell.m */; };
 		2048FC7D2069413D008266B5 /* GunCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2048FC7C2069413D008266B5 /* GunCollectionViewCell.xib */; };
+		20D9E62B206CE51E00490AFC /* GunItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D9E62A206CE51E00490AFC /* GunItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		2048FC7920679C50008266B5 /* GunCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GunCollectionViewCell.h; sourceTree = "<group>"; };
 		2048FC7A20679C50008266B5 /* GunCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GunCollectionViewCell.m; sourceTree = "<group>"; };
 		2048FC7C2069413D008266B5 /* GunCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GunCollectionViewCell.xib; sourceTree = "<group>"; };
+		20D9E62A206CE51E00490AFC /* GunItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GunItem.m; sourceTree = "<group>"; };
+		20D9E62C206CE52600490AFC /* GunItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GunItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 		2048FC75206784A6008266B5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				20D9E62C206CE52600490AFC /* GunItem.h */,
+				20D9E62A206CE51E00490AFC /* GunItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D9E62B206CE51E00490AFC /* GunItem.m in Sources */,
 				2048FC5520678439008266B5 /* RootViewController.m in Sources */,
 				2048FC6020678439008266B5 /* main.m in Sources */,
 				2048FC5220678439008266B5 /* AppDelegate.m in Sources */,
