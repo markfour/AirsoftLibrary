@@ -89,9 +89,9 @@
 		2048FC4F20678439008266B5 /* AirsoftLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				2048FC76206784AC008266B5 /* Controller */,
-				2048FC75206784A6008266B5 /* Model */,
 				2048FC74206784A0008266B5 /* View */,
+				2048FC75206784A6008266B5 /* Model */,
+				2048FC76206784AC008266B5 /* Controller */,
 				2048FC5020678439008266B5 /* AppDelegate.h */,
 				2048FC5120678439008266B5 /* AppDelegate.m */,
 				2048FC5920678439008266B5 /* Assets.xcassets */,
