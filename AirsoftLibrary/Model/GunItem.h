@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GunItem : NSObject
+@interface GunItem : NSObject {
+  NSString *displayName;
+  NSDate *onSaleDate;
+}
 
 @end
