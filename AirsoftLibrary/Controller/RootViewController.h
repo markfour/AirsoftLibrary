@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 
 #import "GunCollectionViewCell.h"
+#import "GunItem.h"
 
 @interface RootViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
+@property (nonatomic, copy) NSMutableArray *gunItems;
 
 @end
 

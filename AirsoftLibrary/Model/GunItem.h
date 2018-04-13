@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GunItem : NSObject {
-  NSString *displayName;
-  NSDate *onSaleDate;
-}
+@interface GunItem : NSObject
+
+@property (nonatomic, copy) NSString *displayName;
+@property (nonatomic) NSString *displayNonSaleDateame;
 
 @end

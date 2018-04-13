@@ -35,4 +35,13 @@
   return 1;
 }
 
+- (NSArray *)fetchGunItemsDummy {
+  for (int i = 0; i < 5; i++) {
+    GunItem *gunItem = [GunItem init];
+    [_gunItems addObject:gunItem];
+  }
+  
+  return [NSArray array];
+}
+
 @end
