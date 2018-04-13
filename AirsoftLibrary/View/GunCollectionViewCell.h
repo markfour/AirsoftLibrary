@@ -10,4 +10,7 @@
 
 @interface GunCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *displayNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *powerSouceLabel;
+
 @end

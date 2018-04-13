@@ -105,6 +105,10 @@
                 <constraint firstAttribute="trailing" secondItem="9eo-oM-ZlQ" secondAttribute="trailing" id="Z86-ex-32d"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="M2S-7b-eWr"/>
+            <connections>
+                <outlet property="displayNameLabel" destination="4Ws-bE-ESd" id="xyA-os-6qU"/>
+                <outlet property="powerSouceLabel" destination="dwZ-3j-ppn" id="2pq-vY-zfJ"/>
+            </connections>
         </collectionViewCell>
     </objects>
     <resources>

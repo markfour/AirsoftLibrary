@@ -30,6 +30,8 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
   NSString * cellName = NSStringFromClass([GunCollectionViewCell class]);
   GunCollectionViewCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:cellName forIndexPath:indexPath];
+  GunItem *gunItem = _gunItems[indexPath.row];
+  cell.displayNameLabel.text = gunItem.displayName;
   return cell;
 }
 
@@ -53,7 +55,10 @@
   NSArray *items = json[@"items"];
   
   for (int i = 0; i < items.count; i++) {
+    NSDictionary *item = items[i];
+    
     GunItem *gunItem = [[GunItem alloc] init];
+    gunItem.displayName = item[@"displayName"];
     [gunItems addObject:gunItem];
   }
   
