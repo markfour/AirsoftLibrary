@@ -19,10 +19,12 @@
   
   NSString *cellName = NSStringFromClass([GunCollectionViewCell class]);
   [_collectionView registerNib:[UINib nibWithNibName:cellName bundle:nil] forCellWithReuseIdentifier:cellName];
+  
+  _gunItems = self.fetchGunItemsDummy;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-  return 10;
+  return _gunItems.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -35,13 +37,15 @@
   return 1;
 }
 
-- (NSArray *)fetchGunItemsDummy {
+- (NSMutableArray *)fetchGunItemsDummy {
+  NSMutableArray *gunItems = [NSMutableArray array];
+  
   for (int i = 0; i < 5; i++) {
-    GunItem *gunItem = [GunItem init];
-    [_gunItems addObject:gunItem];
+    GunItem *gunItem = [[GunItem alloc] init];
+    [gunItems addObject:gunItem];
   }
   
-  return [NSArray array];
+  return gunItems;
 }
 
 @end
