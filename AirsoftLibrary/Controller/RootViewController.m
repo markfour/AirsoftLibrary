@@ -39,6 +39,15 @@
   return 1;
 }
 
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout
+  sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+  CGFloat width = collectionView.frame.size.width;
+  // TODO オートレイアウトを使用する　できるか?
+  CGFloat height = 300;
+  CGSize size = CGSizeMake(width, height);
+  return size;
+}
+
 - (NSMutableArray *)fetchGunItemsDummy {
   NSMutableArray *gunItems = [NSMutableArray array];
   
@@ -47,7 +56,7 @@
   NSData *data = [NSData dataWithContentsOfFile:filePath];
   
   NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
-
+  
   if (error) {
     NSLog(@"error");
   }
