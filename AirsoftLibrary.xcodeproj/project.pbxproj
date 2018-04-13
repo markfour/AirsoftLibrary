@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202B8DCE2080E9340079AD19 /* GunData.json in Resources */ = {isa = PBXBuildFile; fileRef = 202B8DCD2080E9340079AD19 /* GunData.json */; };
 		2048FC5220678439008266B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC5120678439008266B5 /* AppDelegate.m */; };
 		2048FC5520678439008266B5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC5420678439008266B5 /* RootViewController.m */; };
 		2048FC5820678439008266B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2048FC5620678439008266B5 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202B8DCD2080E9340079AD19 /* GunData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GunData.json; sourceTree = "<group>"; };
 		2048FC4D20678439008266B5 /* AirsoftLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirsoftLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2048FC5020678439008266B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2048FC5120678439008266B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,16 +91,17 @@
 		2048FC4F20678439008266B5 /* AirsoftLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				2048FC74206784A0008266B5 /* View */,
-				2048FC75206784A6008266B5 /* Model */,
-				2048FC76206784AC008266B5 /* Controller */,
 				2048FC5020678439008266B5 /* AppDelegate.h */,
 				2048FC5120678439008266B5 /* AppDelegate.m */,
 				2048FC5920678439008266B5 /* Assets.xcassets */,
+				202B8DCD2080E9340079AD19 /* GunData.json */,
 				2048FC5E20678439008266B5 /* Info.plist */,
 				2048FC5B20678439008266B5 /* LaunchScreen.storyboard */,
 				2048FC5F20678439008266B5 /* main.m */,
 				2048FC5620678439008266B5 /* Main.storyboard */,
+				2048FC75206784A6008266B5 /* Model */,
+				2048FC74206784A0008266B5 /* View */,
+				2048FC76206784AC008266B5 /* Controller */,
 			);
 			path = AirsoftLibrary;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				2048FC5D20678439008266B5 /* LaunchScreen.storyboard in Resources */,
 				2048FC5A20678439008266B5 /* Assets.xcassets in Resources */,
+				202B8DCE2080E9340079AD19 /* GunData.json in Resources */,
 				2048FC5820678439008266B5 /* Main.storyboard in Resources */,
 				2048FC7D2069413D008266B5 /* GunCollectionViewCell.xib in Resources */,
 			);
