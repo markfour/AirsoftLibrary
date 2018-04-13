@@ -1,0 +1,28 @@
+{
+  "item": [
+    {
+      "displayName": "次世代電動ガン AK47",
+      "powerType": "電動ガン",
+      "relaseData": "2017/12/01",
+      "tag": [
+      ],
+      "定価": 49800
+    },
+    {
+      "displayName": "AK47HC",
+      "powerType": "電動ガン",
+      "relaseData": "2012/12/01",
+      "tag": [
+      ],
+      "定価": 49800
+    },
+    {
+      "displayName": "βスペツナズ",
+      "powerType": "電動ガン",
+      "relaseData": "2007/12/01",
+      "tag": [
+      ],
+      "定価": 49800
+    }
+  ]
+}
