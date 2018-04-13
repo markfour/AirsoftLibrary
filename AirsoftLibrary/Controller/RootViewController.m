@@ -40,7 +40,19 @@
 - (NSMutableArray *)fetchGunItemsDummy {
   NSMutableArray *gunItems = [NSMutableArray array];
   
-  for (int i = 0; i < 5; i++) {
+  NSError *error = nil;
+  NSString *filePath = [NSBundle.mainBundle pathForResource:@"GunData" ofType:@"json"];
+  NSData *data = [NSData dataWithContentsOfFile:filePath];
+  
+  NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+
+  if (error) {
+    NSLog(@"error");
+  }
+  
+  NSArray *items = json[@"items"];
+  
+  for (int i = 0; i < items.count; i++) {
     GunItem *gunItem = [[GunItem alloc] init];
     [gunItems addObject:gunItem];
   }
