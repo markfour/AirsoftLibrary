@@ -59,7 +59,7 @@
   
   if (error) {
     NSLog(@"error");
-    return nil
+    return nil;
   }
   
   NSArray *items = json[@"items"];
