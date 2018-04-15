@@ -51,51 +51,7 @@
                                     <constraint firstAttribute="height" constant="120" id="k7R-HS-yjO"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D6Z-l0-RBA">
-                                <rect key="frame" x="0.0" y="164" width="357" height="30"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="パワーソース" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwZ-3j-ppn">
-                                        <rect key="frame" x="0.0" y="0.0" width="104" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="電動" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcJ-Fv-Oti">
-                                        <rect key="frame" x="104" y="0.0" width="253" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="DHr-Xe-S6X"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jt2-03-3SW">
-                                <rect key="frame" x="0.0" y="194" width="357" height="30"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="発売日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nzc-53-R0Q" userLabel="発売日">
-                                        <rect key="frame" x="0.0" y="0.0" width="52" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="2018年1月" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNa-Kr-LcD" userLabel="2018年1月">
-                                        <rect key="frame" x="52" y="0.0" width="305" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="8R6-Tn-uC4"/>
-                                </constraints>
-                            </stackView>
                         </subviews>
-                        <constraints>
-                            <constraint firstItem="D6Z-l0-RBA" firstAttribute="leading" secondItem="9eo-oM-ZlQ" secondAttribute="leading" id="rNV-IK-jfM"/>
-                            <constraint firstAttribute="trailing" secondItem="D6Z-l0-RBA" secondAttribute="trailing" id="yvB-wk-yMC"/>
-                        </constraints>
                     </stackView>
                 </subviews>
             </view>
@@ -107,7 +63,6 @@
             <viewLayoutGuide key="safeArea" id="M2S-7b-eWr"/>
             <connections>
                 <outlet property="displayNameLabel" destination="4Ws-bE-ESd" id="xyA-os-6qU"/>
-                <outlet property="powerSouceLabel" destination="dwZ-3j-ppn" id="2pq-vY-zfJ"/>
             </connections>
         </collectionViewCell>
     </objects>
