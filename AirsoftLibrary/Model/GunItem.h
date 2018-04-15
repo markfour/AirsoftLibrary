@@ -11,6 +11,13 @@
 @interface GunItem : NSObject
 
 @property (nonatomic, copy) NSString *displayName;
-@property (nonatomic) NSString *displayNonSaleDateame;
+@property (nonatomic, copy) NSString *gunGroup;
+@property (nonatomic, copy) NSString *gunType;
+@property (nonatomic, copy) NSString *powerSouce;
+@property (nonatomic) NSDate *relaseData;
+@property (nonatomic, copy) NSNumber *overrallLenght;
+@property (nonatomic, copy) NSNumber *barrelLenght;
+@property (nonatomic, copy) NSNumber *wight;
+@property (nonatomic, copy) NSNumber *nominalCost;
 
 @end
