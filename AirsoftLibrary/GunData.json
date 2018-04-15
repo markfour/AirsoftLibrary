@@ -2,27 +2,45 @@
   "items": [
     {
       "displayName": "次世代電動ガン AK47",
+      "gunType": "AK47",
+      "gunGroup": "アサルトライフル",
       "powerType": "電動ガン",
+      "powerSouce": "8.4Vニッケル水素1300mAhミニSバッテリー",
       "relaseData": "2017/12/01",
+      "overrallLenght": "875",
+      "barrelLenght": "300",
+      "wight": "3155",
+      "nominalCost": 49800,
       "tag": [
-      ],
-      "定価": 49800
+      ]
     },
     {
       "displayName": "AK47HC",
+      "gunType": "AK47 HC",
+      "gunGroup": "アサルトライフル",
       "powerType": "電動ガン",
+      "powerSouce": "8.4Vニッケル水素1300mAh AKバッテリー",
       "relaseData": "2012/12/01",
+      "overrallLenght": "680",
+      "barrelLenght": "230",
+      "wight": "2650",
+      "nominalCost": 34800,
       "tag": [
-      ],
-      "定価": 49800
+      ]
     },
     {
       "displayName": "βスペツナズ",
+      "gunType": "AK47 β-Spetsnaz",
+      "gunGroup": "アサルトライフル",
       "powerType": "電動ガン",
-      "relaseData": "2007/12/01",
+      "powerSouce": "8.4Vニッケル水素1300mAhミニSバッテリー",
+      "relaseData": "2012/12/01",
+      "overrallLenght": "711",
+      "barrelLenght": "230",
+      "wight": "2750",
+      "nominalCost": 29800,
       "tag": [
-      ],
-      "定価": 49800
+      ]
     }
   ]
 }
