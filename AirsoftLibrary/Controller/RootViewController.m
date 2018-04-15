@@ -67,8 +67,7 @@
   for (int i = 0; i < items.count; i++) {
     NSDictionary *item = items[i];
     
-    GunItem *gunItem = [[GunItem alloc] init];
-    gunItem.displayName = item[@"displayName"];
+    GunItem *gunItem = [[GunItem alloc] initWithDictionary:item];
     [gunItems addObject:gunItem];
   }
   
