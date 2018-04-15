@@ -20,4 +20,6 @@
 @property (nonatomic, copy) NSNumber *wight;
 @property (nonatomic, copy) NSNumber *nominalCost;
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
 @end
