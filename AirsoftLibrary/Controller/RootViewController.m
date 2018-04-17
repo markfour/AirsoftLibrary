@@ -41,9 +41,12 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout
   sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+  GunCollectionViewCell *cell = (GunCollectionViewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
+  NSLog(@"StackView height %f", cell.containerStackView.frame.size.height);
+
   CGFloat width = collectionView.frame.size.width;
   // TODO オートレイアウトを使用する　できるか?
-  CGFloat height = 300;
+  CGFloat height = 180;
   CGSize size = CGSizeMake(width, height);
   return size;
 }
