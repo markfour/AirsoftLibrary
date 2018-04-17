@@ -10,4 +10,7 @@
 
 @interface GunPropertyView : UIView
 
+@property (weak, nonatomic) IBOutlet UILabel *propertyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+
 @end
