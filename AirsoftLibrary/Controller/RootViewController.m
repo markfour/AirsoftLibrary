@@ -47,7 +47,7 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout
   sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-  GunCollectionViewCell *cell = (GunCollectionViewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
+  //  GunCollectionViewCell *cell = (GunCollectionViewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
   //  NSLog(@"StackView height %f", cell.containerStackView.frame.size.height);
   
   CGFloat width = collectionView.frame.size.width;
