@@ -12,5 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *displayNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *powerSouceLabel;
+@property (weak, nonatomic) IBOutlet UIStackView *containerStackView;
 
 @end

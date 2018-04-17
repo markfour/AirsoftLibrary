@@ -62,6 +62,7 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="M2S-7b-eWr"/>
             <connections>
+                <outlet property="containerStackView" destination="9eo-oM-ZlQ" id="0cw-hw-sKr"/>
                 <outlet property="displayNameLabel" destination="4Ws-bE-ESd" id="xyA-os-6qU"/>
             </connections>
         </collectionViewCell>
