@@ -32,6 +32,12 @@
   GunCollectionViewCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:cellName forIndexPath:indexPath];
   GunItem *gunItem = _gunItems[indexPath.row];
   cell.displayNameLabel.text = gunItem.displayName;
+  
+  GunPropertyView *gunProertyView = [[NSBundle mainBundle] loadNibNamed:@"GunPropertyView" owner:self options:nil][0];
+  gunProertyView.propertyLabel.text = @"パワーソース";
+  gunProertyView.textLabel.text = gunItem.powerSouce;
+  [cell.containerStackView addArrangedSubview:gunProertyView];
+  
   return cell;
 }
 
@@ -42,11 +48,11 @@
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout
   sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
   GunCollectionViewCell *cell = (GunCollectionViewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
-  NSLog(@"StackView height %f", cell.containerStackView.frame.size.height);
+//  NSLog(@"StackView height %f", cell.containerStackView.frame.size.height);
 
   CGFloat width = collectionView.frame.size.width;
   // TODO オートレイアウトを使用する　できるか?
-  CGFloat height = 180;
+  CGFloat height = 240;
   CGSize size = CGSizeMake(width, height);
   return size;
 }

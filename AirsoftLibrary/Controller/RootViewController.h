@@ -10,6 +10,7 @@
 
 #import "GunCollectionViewCell.h"
 #import "GunItem.h"
+#import "GunPropertyView.h"
 
 @interface RootViewController : UIViewController
 
