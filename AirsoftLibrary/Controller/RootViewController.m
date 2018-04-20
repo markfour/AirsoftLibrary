@@ -38,6 +38,7 @@
   gunProertyView.textLabel.text = gunItem.powerSouce;
   [cell.containerStackView addArrangedSubview:gunProertyView];
   
+  
   return cell;
 }
 
@@ -47,8 +48,9 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout
   sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-  //  GunCollectionViewCell *cell = (GunCollectionViewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
-  //  NSLog(@"StackView height %f", cell.containerStackView.frame.size.height);
+//  GunCollectionViewCell *cell = (GunCollectionViewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
+//  CGSize stackViewsize = [cell.containerStackView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
+//  NSLog(@"StackView height %f", stackViewsize.height);
   
   CGFloat width = collectionView.frame.size.width;
   // TODO オートレイアウトを使用する　できるか?
