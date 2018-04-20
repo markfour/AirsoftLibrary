@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GunPropertyView : UIView
+@interface GunProperty2WayView : UIView
 
 @property (weak, nonatomic) IBOutlet UILabel *propertyLabel;
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;

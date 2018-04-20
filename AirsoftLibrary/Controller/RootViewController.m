@@ -33,11 +33,10 @@
   GunItem *gunItem = _gunItems[indexPath.row];
   cell.displayNameLabel.text = gunItem.displayName;
   
-  GunPropertyView *gunProertyView = [NSBundle.mainBundle loadNibNamed:@"GunPropertyView" owner:self options:nil][0];
+  GunProperty2WayView *gunProertyView = [NSBundle.mainBundle loadNibNamed:@"GunProperty2WayView" owner:self options:nil][0];
   gunProertyView.propertyLabel.text = @"パワーソース";
   gunProertyView.textLabel.text = gunItem.powerSouce;
   [cell.containerStackView addArrangedSubview:gunProertyView];
-  
   
   return cell;
 }

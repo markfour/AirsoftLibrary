@@ -1,14 +1,14 @@
 //
-//  GunPropertyView.m
+//  GunProperty1WayView.m
 //  AirsoftLibrary
 //
-//  Created by kazumi hayashida on 2018/04/17.
+//  Created by kazumi hayashida on 2018/04/20.
 //  Copyright © 2018年 kh.inc.d. All rights reserved.
 //
 
-#import "GunPropertyView.h"
+#import "GunProperty1WayView.h"
 
-@implementation GunPropertyView
+@implementation GunProperty1WayView
 
 /*
 // Only override drawRect: if you perform custom drawing.
