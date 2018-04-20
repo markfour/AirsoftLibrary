@@ -131,12 +131,12 @@
 				2048FC7920679C50008266B5 /* GunCollectionViewCell.h */,
 				2048FC7A20679C50008266B5 /* GunCollectionViewCell.m */,
 				2048FC7C2069413D008266B5 /* GunCollectionViewCell.xib */,
+				20B960F820897E24009EAAF5 /* GunProperty1WayView.h */,
+				20B960F920897E24009EAAF5 /* GunProperty1WayView.m */,
+				20B960F620897E13009EAAF5 /* GunProperty1WayView.xib */,
 				20B960F12085D5BD009EAAF5 /* GunProperty2WayView.h */,
 				20B960F22085D5BD009EAAF5 /* GunProperty2WayView.m */,
 				20B960F42085D5D8009EAAF5 /* GunProperty2WayView.xib */,
-				20B960F620897E13009EAAF5 /* GunProperty1WayView.xib */,
-				20B960F820897E24009EAAF5 /* GunProperty1WayView.h */,
-				20B960F920897E24009EAAF5 /* GunProperty1WayView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
