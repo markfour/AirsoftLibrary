@@ -80,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20075A9620B016350044CD1D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		2048FC4420678439008266B5 = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +118,7 @@
 				2048FC5620678439008266B5 /* Main.storyboard */,
 				2048FC75206784A6008266B5 /* Model */,
 				2048FC74206784A0008266B5 /* View */,
-				2048FC76206784AC008266B5 /* Controller */,
+				20075A9620B016350044CD1D /* ViewModel */,
 			);
 			path = AirsoftLibrary;
 			sourceTree = "<group>";
@@ -128,6 +135,7 @@
 		2048FC74206784A0008266B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2048FC76206784AC008266B5 /* Controller */,
 				2048FC7920679C50008266B5 /* GunCollectionViewCell.h */,
 				2048FC7A20679C50008266B5 /* GunCollectionViewCell.m */,
 				2048FC7C2069413D008266B5 /* GunCollectionViewCell.xib */,
