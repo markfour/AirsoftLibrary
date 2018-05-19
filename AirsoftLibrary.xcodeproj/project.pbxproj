@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20075A9920B016CA0044CD1D /* RootViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20075A9820B016CA0044CD1D /* RootViewModel.m */; };
 		202B8DCE2080E9340079AD19 /* GunData.json in Resources */ = {isa = PBXBuildFile; fileRef = 202B8DCD2080E9340079AD19 /* GunData.json */; };
 		2048FC5220678439008266B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC5120678439008266B5 /* AppDelegate.m */; };
 		2048FC5520678439008266B5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048FC5420678439008266B5 /* RootViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20075A9720B016CA0044CD1D /* RootViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewModel.h; sourceTree = "<group>"; };
+		20075A9820B016CA0044CD1D /* RootViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewModel.m; sourceTree = "<group>"; };
 		202B8DCD2080E9340079AD19 /* GunData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GunData.json; sourceTree = "<group>"; };
 		2048FC4D20678439008266B5 /* AirsoftLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirsoftLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2048FC5020678439008266B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 		20075A9620B016350044CD1D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				20075A9720B016CA0044CD1D /* RootViewModel.h */,
+				20075A9820B016CA0044CD1D /* RootViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				20B960FA20897E24009EAAF5 /* GunProperty1WayView.m in Sources */,
 				20D9E62B206CE51E00490AFC /* GunItem.m in Sources */,
+				20075A9920B016CA0044CD1D /* RootViewModel.m in Sources */,
 				2048FC5520678439008266B5 /* RootViewController.m in Sources */,
 				20B960F32085D5BD009EAAF5 /* GunProperty2WayView.m in Sources */,
 				2048FC6020678439008266B5 /* main.m in Sources */,
