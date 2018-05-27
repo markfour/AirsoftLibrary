@@ -8,7 +8,11 @@
 
 #import "RootViewController.h"
 
+#import "RootViewModel.h"
+
 @interface RootViewController ()
+
+@property (nonatomic) RootViewModel *viewModel;
 
 @end
 
@@ -16,6 +20,8 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+  
+  self.viewModel = [[RootViewModel alloc] init];
   
   NSString *cellName = NSStringFromClass([GunCollectionViewCell class]);
   [_collectionView registerNib:[UINib nibWithNibName:cellName bundle:nil] forCellWithReuseIdentifier:cellName];
